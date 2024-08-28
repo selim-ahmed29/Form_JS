@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="cards" id="form">
+            <form class="card">
+                <label class="label">First Name</label>
+                <input type="text" id="firstName" placeholder="Enter your First name" class="input">
+                <span class="invalid" id="invalidfname">Please enter valid First Name.</span>
+            </form>
+            <form class="card">
+                <label class="label">Last Name</label>
+                <input type="text" id="lastName" placeholder="Enter your Last name" class="input">
+                <span class="invalid" id="invalidlname">Please enter valid Last Name.</span>
+            </form>
+            <form class="card">
+                <label class="label">Phone</label>
+                <input type="text" id="Phone" placeholder="Enter your phone" class="input">
+                <span class="invalid" id="invalidphone">Please enter valid Phone number.</span>
+            </form>
+            <form class="card">
+                <label class="label">Email</label>
+                <input type="email" id="email" placeholder="Enter your Email"class="input">
+                <span class="invalid" id="invalidmail">Please enter valid Email</span>
+            </form>
+            <form class="card">
+                <label class="label">Password</label>
+                <input type="password" id="password" placeholder="Enter your password" class="input">
+                <span class="invalid" id="invalidpassword">Please enter valid password</span>
+            </form>
+            <form class="card">
+                <label class="label">conform Password</label>
+                <input type="password" id="conformPassword" placeholder="write again your password" class="input">
+                <span class="invalid" id="invalidcomform">Please enter valid password</span>
+            </form>
+            <form class="card">
+                <label class="label">Image</label>
+                <input type="file" id="image" accept=".jpg, .jpeg, .png">
+                <span class="invalid" id="invalidimage">Please insert a valid file with max size 5MB</span>
+            </form>
+        </div>
+        <button id="formBtn">Submit</button> 
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>

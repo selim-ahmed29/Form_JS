@@ -1,0 +1,59 @@
+html{
+    background: linear-gradient(to right, #658cc9, #7b4aff);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+    position: absolute;
+    transform: translateY(50%);
+    top: -34px;
+    left: 16%;
+    border-radius: 10px;
+    border-style: solid;
+    background-color: white;
+    border-color: transparent;
+    box-shadow: 20px 10px 68px rgba(0, 0, 0, 0.12);
+
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 12px;
+    margin-top: 20px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    margin-inline: 15px;
+}
+
+.invalid
+{
+    color: red;
+    font-size: 15px;
+    display: none;
+}
+
+#formBtn{
+    width: 75px;
+    height: 38px;
+    border-radius: 6px;
+    align-self: center;
+    margin-block: 30px;
+    background-color:#658cc9;
+    border-color: transparent;
+}
+
+.label{
+    margin-bottom: 4px;
+}
+
+.input{
+    height: 40px;
+    border-style: solid;
+    border-radius: 9px;
+    width: 300px;
+    text-indent: 15px;
+}
